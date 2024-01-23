@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #103261;
+    padding: 16px 0;
+    color:#fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*fonte do menu*/
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-left: 16px;
+}
+/*Links do menu*/
+header li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*alterar o tamanho das imagens*/
+.articles article img{
+    width: 90%;
+}
+
+.articles article{
+    width: 40%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+    color: rgb(32, 29, 228);
+}
+
+.articles article h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(32, 29, 228);
+}
+/*Alterar botão leia mais*/
+.articles article a {
+    background-color: blue;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:  bold;
+    margin-top: 8px;
+
+}
+
+.articles article a:hover{
+    text-decoration:  underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*tamanho dos subtitulos*/
+.articles article h3{
+    font-size: 20px;
+}
+/*tamanho dos titulos*/
+section h2 {
+    font-size: 32px;
+}
+/*background de entreterimento*/
+#entertainment {
+    background-color: rgba(72, 185, 72, 0.493);
+}
+/*cor do botão leia mais*/
+#entertainment .articles article a {
+    background-color: rgba(21, 255, 0, 0.479);
+    color: black;
+}
+/*background de tecnologia*/
+#technology {
+    background-color: #c3edf0;
+}
+/*cor do botão leia mais*/
+#technology .articles article a{
+    background-color: #9fa8f8;
+}
